@@ -47,6 +47,13 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        hydrate: {
+          DEFAULT: "hsl(var(--hydrate))",
+          glow: "hsl(var(--hydrate-glow))",
+        },
+        water: {
+          light: "hsl(var(--water-light))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
